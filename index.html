@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+      <style>
+        .modal{
+          display: none;
+        }
+      </style>
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/choices.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body class="body">
+   <!-- FRONT PAGE -->
+    <section class="front-page">
+        <nav class="navigation">
+            <a href="" class="logo-link"><img src="img/goit-logo.svg" alt="GOIT logo"></a>
+            <div class="desktop-navigation desktop-element tablet-element">
+              <a href="#about" class="desktop-navigation-item">about</a>
+              <a href="#projects" class="desktop-navigation-item">projects</a>
+              <a href="#calculator" class="desktop-navigation-item">cost calculator</a>
+              <a href="#contacts" class="desktop-navigation-item">contacts</a>
+            </div>
+            <div class="navigationRight">
+            <a href="#callback-form" class="hire-me-btn"> - HIRE ME</a>
+            
+            <div class="mobile-element tablet-element">
+            <a href="" class="mobile-menu" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </a>
+          </div>
+            </div>
+        </nav>
+<div class="front-page-wrapper">
+  <div class="front-page-main-info">
+    <img src="img/myPhoto.jpg" alt="my photo" class="front-page-my-photo desktop-element" /> 
+    <h1 class="frontPageMyName">[Yuri Andropov]</h1>  
+    <h2 class="frontPageProfession"> 
+      <span class="profession-part1">{FRONTEND}</span>
+      <span class="profession-part2"> _DEVELOPER</span> 
+     </h2> 
+
+     <p class="frontPageDescription">/ Using HTML, CSS, JavaScript, React Native 
+       <span class="description-left1">and Node.js I help to build websites small</span>  
+       <span class="description-left2">and medium web apps for business</span> </p>
+     
+
+     <a href="#projects" class="front-page-gallery-btn accent-btn" >See my recent works -</a>
+    </div>
+
+
+  <div class="front-page-my-info" >
+    
+    <img src="img/myPhoto.jpg" alt="my-photo" class="front-page-my-photo mobile-element tablet-element" data-aos="fade-down" data-aos-delay="1500">
+
+    <div class="front-page-about-me-container" data-aos="fade-left" data-aos-delay="1000">
+      <p class="front-page-my-description tablet-element">
+        about me <br> in 2 minutes 
+    </p>
+      <p class="front-page-my-description mobile-element">
+        about me in 2 minutes 
+    </p>
+    <p class="front-page-my-description tablet-element desktop-element">
+      about me <br> in 2 minutes 
+  </p>
+
+    <button class="front-page-my-video-btn" id="my-video-btn">
+        <i class="fas fa-play"></i> 
+        PLAY
+    </button>
+    </div>
+  </div>
+
+  <img src="img/laptop.svg" alt="laptop" class="front-page-laptop">
+  
+  <div class="experience-wrapper" data-aos="fade-right" data-aos-delay="500">
+
+    <div class="experience-container">
+
+      <h3 class="experience-title">
+          My coding skills & experience
+      </h3>
+       <div class="experience-skill">
+           <div class="experience-dots">
+               <i class="experience-dots-item experience-dots-item-accent  far fa-circle"></i>
+               <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+               <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+               <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+               <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+           </div>
+           
+
+           <p class="experience-text">Html</p> 
+       </div>
+
+       <div class="experience-skill">
+       <div class="experience-dots">
+          <i class="experience-dots-item experience-dots-item-accent  far fa-circle"></i>
+          <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+          <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+          <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+          <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+      </div>
+      
+
+      <p class="experience-text">CSS</p>
+    </div>
+
+    <div class="experience-skill">
+      <div class="experience-dots">
+          <i class="experience-dots-item experience-dots-item-accent  far fa-circle"></i>
+          <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+          <i class="experience-dots-item far fa-circle"></i>
+          <i class="experience-dots-item far fa-circle"></i>
+          <i class="experience-dots-item far fa-circle"></i>
+      </div>
+    
+
+      <p class="experience-text">JavaScript</p>
+      </div>
+
+      <div class="experience-skill">
+          <div class="experience-dots">
+              <i class="experience-dots-item far fa-circle"></i>
+              <i class="experience-dots-item far fa-circle"></i>
+              <i class="experience-dots-item far fa-circle"></i>
+              <i class="experience-dots-item far fa-circle"></i>
+              <i class="experience-dots-item far fa-circle"></i>
+          </div>
+        
+
+          <p class="experience-text">React</p>
+          </div>
+
+          <div class="experience-skill">
+              <div class="experience-dots">
+                  <i class="experience-dots-item far fa-circle"></i>
+                  <i class="experience-dots-item far fa-circle"></i>
+                  <i class="experience-dots-item far fa-circle"></i>
+                  <i class="experience-dots-item far fa-circle"></i>
+                  <i class="experience-dots-item far fa-circle"></i>
+              </div>
+            
+  
+              <p class="experience-text">Node</p>
+              </div>
+
+              <div class="experience-skill">
+                  <div class="experience-dots">
+                      <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i>
+                      <i class="experience-dots-item far fa-circle"></i>
+                  </div>
+                
+      
+                  <p class="experience-text">React Native</p>
+                  </div>
+  </div>
+
+  </div>
+</div>
+        
+        
+
+    </section>
+<!-- ABOUT PAGE-->
+    <section class="about" id="about">
+        <div class="container container-left">
+          <div class="about-container-wrapper">
+            <h3 class="section-title about-title" data-aos="fade-right" data-aos-delay="500">I code things from scratch_</h3>
+            <p class="about-descr mobile-element" data-aos="fade-right" data-aos-delay="1000">
+              <span>[and help to</span>
+              <span>create great web</span>
+              <span>apps]</span>
+            </p>
+
+             <div class="tablet-element desktop-element" data-aos="fade-right" data-aos-delay="1000">
+            <p class="about-descr">
+              <span>[and help to</span>
+              <span>create great web apps]</span>
+            </p>
+          </div>
+            <div class="about-img-container">
+        <p class="about-img-text">
+          WEB
+          <img
+            src="img/web-apps-laptop.png"
+            alt="web apps laptop"
+            class="about-img"
+            data-aos="fade-down" data-aos-delay="1500"
+          />
+        </p>
+      </div>
+      <p class="about-text mobile-element desktop-element" data-aos="fade-right" data-aos-delay="1100">
+        / I will help you to create a high-performance Landing Page, functional
+        corporate website for your business, interactive web app for SaaS,
+        startup, or other services.
+      </p>
+      <p class="about-text tablet-element" data-aos="fade-right" data-aos-delay="1100">
+        / I will help you to create a<br />
+        high-performance Landing Page,<br />
+        functional corporate website for your<br />
+        business, interactive web app for<br />
+        SaaS, startup, or other services.
+      </p>
+      <p class="about-text" data-aos="fade-right" data-aos-delay="1200">
+        / My specialization is front-end development — client side of the web.
+        But I also have full-stack developer experience.
+      </p>
+    </div>
+          
+          <div class="about-projects desktop-element">
+            <div class="about-projects-bar">
+              <p class="about-projects-count">10+</p>
+            </div>
+            <p class="about-projects-text">completed projects</p>
+          </div>
+
+        </div>
+      </section>
+<!-- PERSONAL PROJECTS PAGE -->
+      <section class="personal-projects" id="projects">
+        <div class="container">
+          <h3 class="section-title personal-projects-title" data-aos="fade-right" data-aos-anchor-placement="top-center">My personal _projects</h3>
+      
+          <div class="personal-project-item-wrapper">
+          <div class="personal-project-item">
+            <div class="personal-project-item-container">
+              <div class="projet-item-dot-container">
+                <div class="projet-item-dot"></div>
+                <div class="projet-item-dot"></div>
+                <div class="projet-item-dot"></div>
+              </div>
+              <img
+                src="img/projects/personal/full-stack.jpg"
+                alt="full stack website"
+                class="personal-project-img"
+              />
+            </div>
+            <p class="personal-project-name">
+              <i class="fas fa-laptop-code personal-project-icon"></i>
+              <span>Technology: HTML5, CSS3, JS</span>
+            </p>
+            <button class="personal-project-btn accent-btn" id="personal-project-full-stack-btn">More details —</button>
+          </div>
+      
+          <div class="personal-project-item">
+            <div class="personal-project-item-container">
+              <div class="projet-item-dot-container">
+                <div class="projet-item-dot"></div>
+                <div class="projet-item-dot"></div>
+                <div class="projet-item-dot"></div>
+              </div>
+              <img
+                src="img/projects/personal/wedding.jpg"
+                alt="wedding website"
+                class="personal-project-img"
+              />
+            </div>
+            <p class="personal-project-name">
+              <i class="fas fa-laptop-code personal-project-icon"></i>
+              <span>Technology: HTML, CSS, JavaScript, PHP</span>
+            </p>
+            <button class="personal-project-btn accent-btn" id="personal-project-wedding-project-btn">More details —</button>
+          </div>
+      
+          <div class="personal-project-item">
+            <div class="personal-project-item-container">
+              <div class="projet-item-dot-container">
+                <div class="projet-item-dot"></div>
+                <div class="projet-item-dot"></div>
+                <div class="projet-item-dot"></div>
+              </div>
+              <img
+                src="img/projects/personal/pro-test.jpg"
+                alt="pro test website"
+                class="personal-project-img"
+              />
+            </div>
+            <p class="personal-project-name">
+              <i class="fas fa-laptop-code personal-project-icon"></i>
+              <span>Technology: React.js, Node.js</span>
+            </p>
+            <button class="personal-project-btn accent-btn" id="personal-project-pro-test-btn">More details —</button>
+          </div>
+      
+          <div class="personal-project-item">
+            <div class="personal-project-item-container">
+              <div class="projet-item-dot-container">
+                <div class="projet-item-dot"></div>
+                <div class="projet-item-dot"></div>
+                <div class="projet-item-dot"></div>
+              </div>
+              <img
+                src="img/projects/personal/goit.jpg"
+                alt="goit website"
+                class="personal-project-img"
+              />
+            </div>
+            <p class="personal-project-name">
+              <i class="fas fa-laptop-code personal-project-icon"></i>
+              <span>Technology: HTML, CSS, JavaScript, Wordpress</span>
+            </p>
+            <button class="personal-project-btn accent-btn" id="personal-project-goit-btn">More details —</button>
+          </div>
+          </div>
+        </div>
+      </section>
+<!-- TEAM PROJECTS PAGE  -->
+      <section class="team-projects">
+        <div class="container">
+          <span class="team-projects-title-bgd">TEAM</span>
+          <h3 class="section-title team-projects-title" data-aos="fade-right" data-aos-anchor-placement="top-center">
+            Teamwork _projects
+          </h3>
+
+          <div class="team-project-item-wrapper">
+          <div class="team-project-item">
+            <div class="personal-project-item-container">
+              <div class="projet-item-dot-container">
+                <div class="projet-item-dot"></div>
+                <div class="projet-item-dot"></div>
+                <div class="projet-item-dot"></div>
+              </div>
+              <img
+                src="img/projects/team/questify.jpg"
+                alt="quetify app"
+                class="personal-project-img"
+              />
+            </div>
+            <p class="team-project-name">
+              <i class="fas fa-laptop-code personal-project-icon"></i>
+              Technology: React.js, Node.js
+            </p>
+            <button class="personal-project-btn accent-btn" id="team-project-questify-btn">More details —</button>
+          </div>
+          <div class="team-project-item">
+            <div class="personal-project-item-container">
+              <div class="projet-item-dot-container">
+                <div class="projet-item-dot"></div>
+                <div class="projet-item-dot"></div>
+                <div class="projet-item-dot"></div>
+              </div>
+              <img
+                src="img/projects/team/it-test.jpg"
+                alt="it test app"
+                class="personal-project-img"
+              />
+            </div>
+            <p class="team-project-name">
+              <i class="fas fa-laptop-code personal-project-icon"></i>
+              Technology: React.js, Node.js
+            </p>
+            <button class="personal-project-btn accent-btn" id="team-project-it-test-btn">More details —</button>
+          </div>
+        </div>
+        </div>
+      </section>
+       <!-- CALLBACK FORM -->
+       <section class="callback-form" id="callback-form">
+         <div class="container">
+           <form class="callback-form-container">
+             <h3 class="callback-form-title">/Are you minding [a project?]</h3>
+              <p class="callback-form-description" data-aos="fade-right" data-aos-delay="1000">Leave a request to discuss the task and technical requirements</p>
+               
+              <div class="callback-form-input-container">
+                <input 
+                type="text" 
+                class="callback-form-input" 
+                 placeholder="Name" 
+                 id="callback-form-input-name">
+ 
+                <input 
+                type="email" 
+                class="callback-form-input"  
+                placeholder="Email" 
+                id="callback-form-input-email" >
+                
+                <input 
+                type="tel" 
+                class="callback-form-input" 
+                placeholder="+38 (___) ___ - __ - __" 
+                id="callback-form-input-phone">
+              </div>
+
+               <input 
+               type="submit" 
+               class="callback-form-submit accent-btn" 
+               value="Discuss the project  —">
+          </form>
+         </div>
+       </section>
+        <!-- CALCULATOR -->
+       <section class="calculator" id="calculator">
+        <div class="container">
+
+          <div class="calculator-info-container">
+            
+            <h3 class="calculator-title section-title mobile-element">
+              Calculate_ the cost of a future project
+            </h3>
+
+            <h3 class="calculator-title section-title tablet-element desktop-element">
+              Calculate_ <br>
+              the cost of a <br>
+              future project
+            </h3>
+  
+            <h3 class="calculator-title section-title tablet-element">
+              Calculate_ <br>
+              the cost of a <br>
+              future project
+            </h3>
+  
+  <div class="mobile-element">
+    <p class="calculator-descr">
+      <span>This is an</span>
+      <span class="calculator-descr-accent">approximate</span>
+      <span>calculation.</span>
+    </p>
+  </div>
+            
+  <div class=" tablet-element desktop-element">
+    <p class="calculator-descr">
+      <span>This is an  approximate</span> 
+      <span>calculation.</span>
+    </p>
+  </div>
+
+  <div class="tablet-element">
+    <p class="calculator-descr">
+      <span>This is an  approximate</span> 
+      <span>calculation.</span>
+    </p>
+  </div>
+   
+            <img src="img/calculator.svg" alt="calculator" class="calculator-icon mobile-element"/>
+            <img src="img/calculator.svg" alt="calculator" class="calculator-icon tablet-element desktop-element" data-aos="fade-down" data-aos-delay="700"/>
+            <img src="img/calculator.svg" alt="calculator" class="calculator-icon tablet-element"/>
+            
+            
+            
+            <p class="calculator-text">
+              / The final cost depends on the technical requirements, terms, specifics
+              of your project.
+            </p>
+          </div>
+           
+          <form action="" class="calculator-form">
+            <div class="calculator-form-input">
+            <label for="calculator-form-website-type" class="calculator-form-title">What should be done:</label>
+              <select name="website-type" id="calculator-form-website-type" class="calculator-form-select">
+                <option selected value="Landing-page:600">Landing page</option>
+                <option value="Website:1000">Website</option>
+                <option value="CMS:2000">CMS</option>
+                <option value="Portal:3000">Portal</option>
+                <option value="E-shop:3500">E-shop</option>
+              </select>
+            </div>
+
+            <div class="calculator-form-input">
+              <label for="calculator-form-technologies" class="calculator-form-title">Choose preferred technologies:</label>
+                <select name="technologies" id="calculator-form-technologies" class="calculator-form-select" multiple>
+                  <option selected value="HTML:500">HTML</option>
+                  <option selected value="CSS:500">CSS</option>
+                  <option selected value="JS:700">JS</option>
+                  <option value="react:1000">React</option>
+                  <option value="angular:1000">Angular</option>
+                  <option value="php:2000">PHP</option>
+                </select>
+            </div>
+
+            <div class="calculator-form-input">
+              <label for="cart-yes cart-no" class="calculator-form-title">Personal account and shopping cart:</label>
+              <div class="calculator-form-input-radio-container" id="calculator-form-input-cart">
+                <input checked type="radio" id="calculator-form-input-cart-yes" name="cart" value="Yes" class="calculator-form-input-field">
+                <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">Yes</label>
+                <input type="radio" id="calculator-form-input-cart-no" name="cart" value="No" class="calculator-form-input-field">
+              <label for="calculator-form-input-cart-no" class="calculator-form-input-label">No</label>
+              </div>
+            </div>
+
+            <div class="calculator-form-input">
+              <label for="" class="calculator-form-title">Requests reception on your email:</label>
+              <div class="calculator-form-input-radio-container" id="calculator-form-input-reception">
+                <input  checked type="radio" id="calculator-form-input-reception-yes" name="reception" value="Yes" class="calculator-form-input-field">
+                <label for="calculator-form-input-reception-yes" class="calculator-form-input-label">Yes</label>
+                <input type="radio" id="calculator-form-input-reception-no" name="reception" value="No" class="calculator-form-input-field">
+                <label for="calculator-form-input-reception-no" class="calculator-form-input-label">No</label>
+                </div>
+            </div>
+
+            <div class="calculator-form-input">
+             <p class="calculator-form-total">Cost:</p>
+             <p class="calculator-form-total-cost">350$</p>
+            </div>
+            <input type="submit" value="Find out the cost  —" class="accent-btn accent-btn-tablet-calculator">
+
+          </form>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer-container" id="contacts">
+        <div class="footer-info">
+
+          <div class="footer-name-occupation">
+            <p class="footer-name ">Yurii Andropov</p>
+            <p class="footer-occupation">Frontend Developer</p>
+          </div>
+
+      <div class="contacts-tablet">
+        <a href="tel:+38(063)9222994" class="my-number">+38 (063) 9 222 994</a>
+      <a href="mailto:elidanvalacaus@gmail.com" class="my-mail">elidanvalacaus@gmail.com</a>
+      </div>
+      
+  
+      <div class="footer-icons">
+        <a href="">
+          <i class="single-icon"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23.6246 1.3752C22.7077 0.458457 21.6039 0 20.3124 0H4.68747C3.39636 0 2.29217 0.458457 1.3752 1.3752C0.458457 2.29211 0 3.3963 0 4.68747V20.3126C0 21.6039 0.458457 22.7079 1.3752 23.6247C2.29211 24.5416 3.39636 25.0001 4.68747 25.0001H8.33329C8.57182 25.0001 8.75099 24.9918 8.87031 24.9759C8.98957 24.9595 9.10883 24.8889 9.22826 24.764C9.34775 24.6393 9.40727 24.4575 9.40727 24.2189C9.40727 24.1865 9.40442 23.8172 9.39906 23.112C9.39353 22.4065 9.39085 21.8477 9.39085 21.4354L9.01648 21.5005C8.77779 21.5438 8.47667 21.5629 8.11313 21.5575C7.74976 21.552 7.3726 21.5141 6.98204 21.4436C6.59125 21.3729 6.22788 21.2102 5.89148 20.9555C5.55524 20.7002 5.31655 20.3667 5.17546 19.9545L5.01264 19.5799C4.90416 19.3306 4.73336 19.0537 4.50003 18.7502C4.2667 18.4462 4.03074 18.24 3.79205 18.1315L3.67809 18.0501C3.60221 17.9959 3.53169 17.9305 3.46653 17.8546C3.40149 17.7785 3.35269 17.7025 3.32014 17.6268C3.28759 17.5507 3.31461 17.4882 3.40149 17.4393C3.48837 17.3905 3.64554 17.3664 3.87351 17.3664L4.19891 17.4151C4.416 17.4584 4.68439 17.5885 5.00466 17.8057C5.32471 18.0226 5.5878 18.3047 5.79399 18.6518C6.04369 19.0968 6.34452 19.4357 6.69734 19.669C7.04988 19.9026 7.40532 20.0192 7.76333 20.0192C8.12134 20.0192 8.43055 19.9921 8.69108 19.938C8.95132 19.8837 9.19548 19.8021 9.42346 19.6936C9.52111 18.9667 9.787 18.4076 10.2209 18.017C9.60246 17.9518 9.04641 17.8543 8.55255 17.724C8.05897 17.5937 7.54892 17.3822 7.02274 17.0891C6.49633 16.7961 6.05965 16.4329 5.71242 15.9986C5.36524 15.5643 5.08031 14.9947 4.85804 14.2896C4.63565 13.5841 4.52443 12.7702 4.52443 11.848C4.52443 10.5352 4.95318 9.41736 5.81036 8.49514C5.40879 7.50776 5.4467 6.40113 5.9242 5.17489C6.23888 5.07718 6.70555 5.15049 7.32397 5.39465C7.94251 5.63899 8.39538 5.84792 8.68304 6.02128C8.9707 6.1947 9.20118 6.34133 9.37483 6.46081C10.3842 6.17868 11.4257 6.03764 12.4999 6.03764C13.574 6.03764 14.6157 6.17868 15.6251 6.46081L16.2436 6.0702C16.6669 5.80967 17.166 5.57098 17.7411 5.35406C18.3162 5.13709 18.7556 5.07735 19.0596 5.17506C19.5477 6.4013 19.5913 7.50793 19.1895 8.49525C20.0466 9.41758 20.4755 10.5353 20.4755 11.8482C20.4755 12.7706 20.3643 13.5872 20.1419 14.2977C19.9197 15.0085 19.6323 15.5783 19.2794 16.0069C18.9268 16.4355 18.4873 16.7961 17.9611 17.0892C17.4348 17.3821 16.9248 17.5939 16.431 17.7239C15.9373 17.8542 15.3813 17.9521 14.7628 18.0173C15.3267 18.5054 15.6088 19.2756 15.6088 20.3283V24.2184C15.6088 24.4029 15.6357 24.552 15.6899 24.6659C15.7445 24.7798 15.8312 24.8583 15.9505 24.902C16.0703 24.9453 16.1756 24.9724 16.2681 24.9832C16.3606 24.9941 16.4932 24.9995 16.6669 24.9995H20.3127C21.6038 24.9995 22.7081 24.5411 23.6246 23.6242C24.5415 22.7073 24.9999 21.603 24.9999 20.3119V4.68747C24.9998 3.3963 24.5414 2.29194 23.6246 1.3752Z" fill="#233349"/>
+            </svg>
+          </i>
+        </a>
+        <a href="">
+          <i class="single-icon"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23.197 0H1.80302C0.80719 0 0 0.80719 0 1.80302V23.197C0 24.1928 0.80719 25 1.80302 25H23.197C24.1928 25 25 24.1928 25 23.197V1.80302C25 0.80719 24.1928 0 23.197 0V0ZM8.86765 18.8965H5.82333V9.73759H8.86765V18.8965ZM7.34558 8.48694H7.32574C6.30417 8.48694 5.64346 7.7837 5.64346 6.90479C5.64346 6.00605 6.32439 5.32227 7.3658 5.32227C8.40721 5.32227 9.04808 6.00605 9.06792 6.90479C9.06792 7.7837 8.40721 8.48694 7.34558 8.48694ZM19.8448 18.8965H16.8009V13.9967C16.8009 12.7653 16.3601 11.9255 15.2586 11.9255C14.4176 11.9255 13.9168 12.492 13.6967 13.0388C13.6162 13.2345 13.5965 13.508 13.5965 13.7817V18.8965H10.5524C10.5524 18.8965 10.5923 10.5968 10.5524 9.73759H13.5965V11.0344C14.0011 10.4103 14.7249 9.52263 16.3401 9.52263C18.343 9.52263 19.8448 10.8316 19.8448 13.6448V18.8965Z" fill="#233349"/>
+            </svg>
+            </i>
+        </a>
+        <a href="">
+          <i class="single-icon"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.3379 0H3.66211C1.64299 0 0 1.64299 0 3.66211V21.3379C0 23.357 1.64299 25 3.66211 25H11.0352V16.1621H8.10547V11.7676H11.0352V8.78906C11.0352 6.36578 13.0064 4.39453 15.4297 4.39453H19.873V8.78906H15.4297V11.7676H19.873L19.1406 16.1621H15.4297V25H21.3379C23.357 25 25 23.357 25 21.3379V3.66211C25 1.64299 23.357 0 21.3379 0Z" fill="#233349"/>
+            </svg>
+          </i>
+        </a>
+        <a href="">
+          <i class="single-icon">
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+              <path d="M12.5044 6.08154C8.95963 6.08154 6.08984 8.95446 6.08984 12.4961C6.08984 16.0409 8.96276 18.9107 12.5044 18.9107C16.0492 18.9107 18.919 16.0378 18.919 12.4961C18.919 8.95133 16.0461 6.08154 12.5044 6.08154ZM12.5044 16.6597C10.2034 16.6597 8.34089 14.7961 8.34089 12.4961C8.34089 10.1961 10.2044 8.33258 12.5044 8.33258C14.8044 8.33258 16.668 10.1961 16.668 12.4961C16.669 14.7961 14.8055 16.6597 12.5044 16.6597Z" fill="#233349"/>
+              <path d="M17.6544 0.079016C15.3544 -0.0282756 9.65753 -0.0230673 7.35545 0.079016C5.33253 0.173808 3.54815 0.662349 2.10961 2.10089C-0.294555 4.50506 0.0127367 7.74464 0.0127367 12.4957C0.0127367 17.3582 -0.258097 20.5228 2.10961 22.8905C4.52315 25.303 7.80961 24.9873 12.5044 24.9873C17.3211 24.9873 18.9836 24.9905 20.6867 24.3311C23.0023 23.4321 24.7502 21.3623 24.9211 17.6446C25.0294 15.3436 25.0232 9.64776 24.9211 7.34568C24.7148 2.95714 22.3596 0.295683 17.6544 0.079016ZM21.295 21.2998C19.719 22.8759 17.5325 22.7353 12.4742 22.7353C7.26586 22.7353 5.17732 22.8123 3.65336 21.2842C1.89815 19.5373 2.21586 16.7321 2.21586 12.479C2.21586 6.72381 1.62524 2.57902 7.40128 2.28318C8.72836 2.23631 9.11899 2.22068 12.4596 2.22068L12.5065 2.25193C18.0575 2.25193 22.4127 1.67068 22.6742 7.44568C22.7336 8.76339 22.7471 9.15922 22.7471 12.4946C22.7461 17.6426 22.844 19.7436 21.295 21.2998Z" fill="#233349"/>
+              <path d="M19.1728 7.32702C20.0006 7.32702 20.6717 6.65591 20.6717 5.82806C20.6717 5.00021 20.0006 4.3291 19.1728 4.3291C18.3449 4.3291 17.6738 5.00021 17.6738 5.82806C17.6738 6.65591 18.3449 7.32702 19.1728 7.32702Z" fill="#233349"/>
+              </g>
+              <defs>
+              <clipPath id="clip0">
+              <rect width="25" height="25" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>          
+          </i>
+        </a>
+        
+  
+      </div>
+    
+
+        </div>
+      </footer>
+
+      <!-- MODALS -->
+      <div class="modals-wrapper">
+        <!-- MOBILE MENU -->
+        <div class="modal  modal-mobile-menu mobile-element tablet-element" id="mobile-menu">
+          <div class="modal-mobile-content">
+            <div class="container mobile-menu-container">
+              <i class="fas fa-times modal-close-btn mobile-menu-close-btn"></i>
+             <nav class="mobile-menu-items">
+              <a href="#about" class="mobile-menu-item">ABOUT</a>
+               <a href="#projects" class="mobile-menu-item">PROJECTS</a>
+               <a href="#calculator" class="mobile-menu-item">COST CALCULATOR</a>
+              <a href="#contacts" class="mobile-menu-item">CONTACTS</a>
+            </nav>
+
+            <div class="mobile-menu-contacts">
+                <a href="tel:+38(063)9222994" class="mobile-menu-my-number">+38 (063) 9 222 994</a>
+                <a href="mailto:elidanvalacaus@gmail.com" class="mobile-menu-my-mail">elidanvalacaus@gmail.com</a>
+            </div> 
+             </div>
+       </div>
+      </div>
+
+      
+     <!-- MODAL VIDEO -->
+     <div class="modal modal-area-bgd" id="my-video-modal">
+
+      <div class="my-video-container">
+        <i class="fas fa-times modal-close-btn my-video-close-btn"></i>
+        <iframe controls 
+        class="my-video-content modal-area-content" 
+        width="560" height="450" 
+        src="https://www.youtube.com/embed/ixl31324UxE" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+        
+      </div>
+
+     </div>
+     <!-- MODAL REQUEST -->
+     <div class="modal modal-area-bgd modal-request-content" id="request-modal">
+       <div class="">
+        <i class="fas fa-times modal-close-btn request-close-btn"></i> 
+        <div class="modal-reqeust-text">
+          <p class="request-title">{Thanks}</p>
+          <p class="request-main-text">I've received your request/</p>
+          <p class="request-will-text">I will contact you soon =)</p>
+
+         </div>
+
+       </div>
+
+     </div>
+
+     <!-- PERSONAL PROJECTS FULL STACK -->
+
+<div class="modal project-modal modal-area-bgd" id="personal-project-full-stack">
+  <div class="project-modal-container modal-area-content">
+    <i class="fas fa-times modal-close-btn" ></i>
+
+    <div class="project-modal-scrollable">
+     
+      <!-- Slider main container -->
+    <div class="swiper-container">
+  <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+      <!-- Slides -->
+      <img class="swiper-slide" src="img/projects/personal/full-stack/full-stack-1.png" alt="full-stack-1">    
+      <img class="swiper-slide" src="img/projects/personal/full-stack/full-stack-2.png" alt="full-stack-2">
+      <img class="swiper-slide" src="img/projects/personal/full-stack/full-stack-3.png" alt="full-stack-3">
+      <img class="swiper-slide" src="img/projects/personal/full-stack/full-stack-4.png" alt="full-stack-4">
+         </div>
+  <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+          <div class="navigation-buttons-wrapper tablet-element desktop-element">
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+        </div>
+
+  <!-- If we need scrollbar -->
+         <div class="swiper-scrollbar"></div>
+    </div>
+
+      <a href="https://fullstackonline.goit.ua/" class="project-modal-title"
+        >Goit Full Stack разработчик</a
+      >
+
+      <p class="project-modal-text">
+        "Одностраничный лендинг с использованием HTML и CSS. Сайт рассказывает
+        потенциальным клиентам о преимуществах обучения на курсе, программе,
+        стоимости и длительности занятий.
+      </p>
+
+      <p class="project-modal-text">
+        Также на сайте добавлена форма обратной связи, соцсети и возможность
+        посмотреть видео-отзывы выпускников, не уходя на внешние ресурсы.
+        Компактно и в доступной форме дана вся информация о курсе,
+        преподавателях и процессе обучения. Формат сайта подходит для небольших
+        компаний или раскрытия информации о конкретном продукте."
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- PERSONAL PROJECTS WEDDING -->
+
+<div class="modal project-modal modal-area-bgd" id="personal-project-wedding-project">
+  <div class="project-modal-container modal-area-content">
+    <i class="fas fa-times modal-close-btn"></i>
+
+    <div class="project-modal-scrollable">
+      
+       <!-- Slider main container -->
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+          <!-- Slides -->
+          <img class="swiper-slide" src="img/projects/personal/wedding/wedding-1.jpg" alt="wedding-1">    
+          <img class="swiper-slide" src="img/projects/personal/wedding/wedding-2.jpg" alt="wedding-2">
+          <img class="swiper-slide" src="img/projects/personal/wedding/wedding-3.jpg" alt="wedding-3">
+             </div>
+      <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+              <div class="navigation-buttons-wrapper tablet-element desktop-element">
+             <div class="swiper-button-prev"></div>
+             <div class="swiper-button-next"></div>
+            </div>
+    
+      <!-- If we need scrollbar -->
+             <div class="swiper-scrollbar"></div>
+        </div>
+
+      <a href="https://www.beeruza.com.ua/" class="project-modal-title"
+        >Beeruza - свадебные пригласительные и аксессуары</a
+      >
+
+      <p class="project-modal-text">
+        "Интернет-магазин свадебных принадлежностей. Сайт предназначен для
+        подготовки к свадьбе. Он экономит время и позволяет купить все
+        аксессуары для свадьбы в одном месте: приглашения, декор, открытки,
+        планер. Также можно заказать звонок и задать все вопросы по телефону.
+      </p>
+
+      <p class="project-modal-text">
+        Чтобы приобрести выбранные товары их нужно положить в корзину и оплатить
+        удобным способом. Формат сайта подходит для бизнеса и продажи товаров."
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- PERSONAL PROJECTS PRO-TEST -->
+
+<div class="modal project-modal modal-area-bgd" id="personal-project-pro-test">
+  <div class="project-modal-container modal-area-content">
+    <i class="fas fa-times modal-close-btn"></i>
+
+    <div class="project-modal-scrollable">
+      
+      <!-- Slider main container -->
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+          <!-- Slides -->
+          <img class="swiper-slide" src="img/projects/personal/pro-test/pro-test-1.jpg" alt="pro-test-1">    
+          <img class="swiper-slide" src="img/projects/personal/pro-test/pro-test-1.jpg" alt="pro-test-2">
+          <img class="swiper-slide" src="img/projects/personal/pro-test/pro-test-1.jpg" alt="pro-test-3">
+             </div>
+      <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+              <div class="navigation-buttons-wrapper tablet-element desktop-element">
+             <div class="swiper-button-prev"></div>
+             <div class="swiper-button-next"></div>
+            </div>
+    
+      <!-- If we need scrollbar -->
+             <div class="swiper-scrollbar"></div>
+        </div>
+
+      <a href="https://pro-test.goit.co.ua/" class="project-modal-title"
+        >Pro test - техническая подготовка QA</a
+      >
+
+      <p class="project-modal-text">
+        Веб-приложение Pro Test поможет начинающему и опытному QA-инженеру
+        оценить уровень своих знаний. В данном приложении реализована
+        регистрация и логинизация пользователя через google account, а также
+        через e-mail и пароль. После чего пользователь может пройти тест и
+        увидеть его результаты.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- PERSONAL PROJECTS GOIT -->
+
+<div class="modal project-modal modal-area-bgd" id="personal-project-goit">
+  <div class="project-modal-container modal-area-content">
+    <i class="fas fa-times modal-close-btn"></i>
+
+    <div class="project-modal-scrollable">
+      
+       <!-- Slider main container -->
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+          <!-- Slides -->
+          <img class="swiper-slide" src="img/projects/personal/goit/goit-1.jpg" alt="goit-1">    
+          <img class="swiper-slide" src="img/projects/personal/goit/goit-1.jpg" alt="goit-2">
+          <img class="swiper-slide" src="img/projects/personal/goit/goit-1.jpg" alt="goit-3">
+             </div>
+      <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+              <div class="navigation-buttons-wrapper tablet-element desktop-element">
+             <div class="swiper-button-prev"></div>
+             <div class="swiper-button-next"></div>
+            </div>
+    
+      <!-- If we need scrollbar -->
+             <div class="swiper-scrollbar"></div>
+        </div>
+
+      <a href="https://goit.ua/" class="project-modal-title"
+        >GoIT - курсы программирования</a
+      >
+
+      <p class="project-modal-text">
+        Многостраничный сайт с использованием HTML, CSS и JavaScript. На сайте
+        есть форма обратной связи и pop-up, который появляется через 30 секунд
+        вашего присутствия на сайте.
+      </p>
+
+      <p class="project-modal-text">
+        Также на сайте есть отдельная страница курсов, с последующим переходом
+        на лендинг каждого отдельного курса. Постоянная рубрика Journal сделана
+        в виде блога с полезной информацией для начинающих разработчиков.
+      </p>
+
+      <p class="project-modal-text">
+        На сайте есть отзывы выпускников, контакты для связи и события компании.
+        Кнопка в правом углу переводит пользователя в телеграм-бот, где он может
+        создать свой собственный сайт с автопроверкой заданий.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- TEAM PROJECT QUESTIFY -->
+
+<div class="modal project-moda modal-area-bgdl" id="team-project-questify">
+  <div class="project-modal-container modal-area-content">
+    <i class="fas fa-times modal-close-btn"></i>
+
+    <div class="project-modal-scrollable">
+      
+      <!-- Slider main container -->
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+          <!-- Slides -->
+          <img class="swiper-slide" src="img/projects/team/questify/questify-1.jpg" alt="questify-1">    
+          <img class="swiper-slide" src="img/projects/team/questify/questify-2.jpg" alt="questify-2">
+          <img class="swiper-slide" src="img/projects/team/questify/questify-3.jpg" alt="questify-3">
+             </div>
+      <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+              <div class="navigation-buttons-wrapper tablet-element desktop-element">
+             <div class="swiper-button-prev"></div>
+             <div class="swiper-button-next"></div>
+            </div>
+    
+      <!-- If we need scrollbar -->
+             <div class="swiper-scrollbar"></div>
+        </div>
+
+      <a href="https://questify.goit.co.ua/" class="project-modal-title"
+        >Questify - turn your life into a thrilling game</a
+      >
+
+      <p class="project-modal-text">
+        Увлекательное веб-приложение, которое призвано помочь превратить
+        рутинные задачи в увлекательные квесты и захватывающие челенджи, которые
+        система сама ставит перед пользователем.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- TEAM PROJECTS TEST IT -->
+
+<div class="modal project-modal modal-area-bgd" id="team-project-it-test">
+  <div class="project-modal-container modal-area-content">
+    <i class="fas fa-times modal-close-btn"></i>
+
+    <div class="project-modal-scrollable" >
+      
+     <!-- Slider main container -->
+     <div class="swiper-container">
+      <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+          <!-- Slides -->
+          <img class="swiper-slide" src="img/projects/team/it-test/it-test-1.jpg" alt="it-test-1">    
+          <img class="swiper-slide" src="img/projects/team/it-test/it-test-2.jpg" alt="it-test-2">
+          <img class="swiper-slide" src="img/projects/team/it-test/it-test-3.jpg" alt="it-test-3">
+             </div>
+      <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+              <div class="navigation-buttons-wrapper tablet-element desktop-element">
+             <div class="swiper-button-prev"></div>
+             <div class="swiper-button-next"></div>
+            </div>
+    
+      <!-- If we need scrollbar -->
+             <div class="swiper-scrollbar"></div>
+        </div>
+
+      <a href="https://testit.co.ua/" class="project-modal-title"
+        >Тест на профессиональную личность в IT
+      </a>
+
+      <p class="project-modal-text">
+        Web-приложение, которое поможет родителям определиться к какой профессии
+        в IT склонен их ребенок.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+      
+      <script src="js/choices.min.js"></script>
+      <script src="js/calculator.js"></script>
+      <script src="js/project-modals.js"></script>
+      <script src="js/modals.js"></script>
+      <script src="js/callback-form.js"></script>
+      <script src="js/aos.js"></script>
+      <script src="js/animation-on-scroll.js"></script>
+      <script src="js/swiper.min.js" ></script>
+      <script src="js/sliders.js" ></script>
+
+</body>
+</html>
